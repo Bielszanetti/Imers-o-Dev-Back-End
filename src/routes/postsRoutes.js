@@ -30,6 +30,7 @@ const routes = (app) => {
     app.post("/upload", upload.single("imagem"), upLoadImagem)
 
     app.put("/upload/:id", atualizarNovoPost)
+
 }
 
 export default routes;
